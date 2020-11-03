@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session called Session ID - Session Title. 
+In this session, you will learn how to use SAP Cloud Platform Integration Suite to implement an integration scenario involving non-SAP applications. You will implement a hire-to-retire scenario, a use case involving HR applications, collaboration tools like Slack and email receiver. You will execute this exercise on the trial environment of SAP Cloud Platform and also use a trial account in non-SAP applicatons. 
 
 ## Overview
 
