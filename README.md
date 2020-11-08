@@ -6,7 +6,7 @@ In this session, you will learn how to use SAP Cloud Platform Integration Suite 
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces you to the capabilities of Integration Suite that help you with all your non-SAP integration needs. You will get started with **Integration Suite** by activating **Cloud Integration** and **Open Connectors** capabilities 
 
 ## Requirements
 
