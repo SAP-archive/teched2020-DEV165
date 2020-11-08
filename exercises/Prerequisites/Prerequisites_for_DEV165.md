@@ -22,5 +22,14 @@ This account is valid for seven days. So, please ensure that you complete this e
 If you already have a **Slack** account, you can use that as well. Create a new workspace for this hands-on exercise by following these steps: [Create a New Slack Workspace](https://slack.com/intl/en-de/help/articles/206845317-Create-a-Slack-workspace).
 
 ## GMail Account - Create new or use an existng one
+You can use your existing GMail accout or create a new one. For creating a new one, you can follow the steps mentioned here: [Create new GMail account]
+(https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp). 
 
+### Additional Settings for Google Account
+You need to configure your **GMail** account to enable it to receive emails from applications. Since you are using a private **GMail** account, some of these settings will be set to high-security level by default. When you are using enterprise **GMail** accounts, these settings may or may not be necessary depending on the organizations security policies. 
+
+#### Disable Two-Factor Authentication
+You have to disable two-factor authentication since this is required for **Cloud Integration** to deliver emails to your account. Follow the steps mentioned here: [Disable Two-Factor Authentication](https://support.google.com/accounts/answer/1064203?co=GENIE.Platform%3DDesktop&hl=en).
+
+#### 
 
