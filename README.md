@@ -6,7 +6,20 @@ In this session, you will learn how to use SAP Cloud Platform Integration Suite 
 
 ## Overview
 
-This session introduces you to the capabilities of Integration Suite that help you with all your non-SAP integration needs. You will get started with **Integration Suite** by activating **Cloud Integration** and **Open Connectors** capabilities 
+This session introduces you to the capabilities of **Integration Suite** that help you with all your non-SAP integration needs. You will work on a HR scenario related to the <em>Hire-to-Retire</em> business process of the Intelligent Enterprise. 
+
+You will work with **<em>Bamboo HR</em>**, a cloud based non-SAP application that provides HR related services. You will use this application's trial offering to create and onboard a new employee. In addition, you will also use **<em>Slack</em>** and **<em>GMail</em>** as target systems. Since all these applications are available for personal use or on free trial, you will use one of these modes to get access to them. 
+
+### Scenario Setup
+In this exercise, you are implementing an integration scenario where your use-case is to integrate **<em>Bamboo HR</em>** with **<em>Slack</em>** and **<em>GMail</em>** accounts. Your Human Resources team has requested you to implement a scenario where the system should perform two actions as soon as a new employee is created:
+1. Send a welcome email to the new employee, welcoming her/him to your company.
+2. Send a notification in the **<em>Slack</em>** channel of the HR team, notifying them about the new employee and look into the subsequent onboarding tasks for the new employee. 
+
+Here's an overview of the how the scenario architecture will look like
+
+![Scenario architecture overview](teched2020-DEV165/exercises/Images/Others/scenario_sol_diagram.png)
+
+You will get started with **Integration Suite** by activating **Cloud Integration** and **Open Connectors** capabilities 
 
 ## Requirements
 
