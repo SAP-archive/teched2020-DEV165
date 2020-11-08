@@ -17,7 +17,7 @@ In this exercise, you are implementing an integration scenario where your use-ca
 
 Here's an overview of the how the scenario architecture will look like
 
-![Scenario architecture overview](teched2020-DEV165/exercises/Images/Others/scenario_sol_diagram.png)
+<br>![Scenario architecture overview](/exercises/Images/Others/scenario_sol_diagram.png)
 
 You will get started with **Integration Suite** by activating **Cloud Integration** and **Open Connectors** capabilities 
 
