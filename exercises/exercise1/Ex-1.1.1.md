@@ -34,4 +34,4 @@
 10. If everything is in order, you will see a response code **200** indicating a successful operation. You will also see a message in your Slack channel, **My Test Message** or whatever text that you provided in the request body. 
 ![Test Slack Connector 4](/exercises/Images/Slack/ocn-slack-testapidoc-4.png)
 
-This concludes the creation and testing of your Slack **Open Connectors** insatance. 
+This concludes the creation and testing of your Slack **Open Connectors** instance. 
