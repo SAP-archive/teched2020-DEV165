@@ -23,4 +23,23 @@ You will use this API key as the credential for authenticating your **Open Conne
 ## Authenticating BambooHR Connector
 You will use the API key generated in the previous section to authenticate your **Open Connectors** BambooHR connector. 
 
-1. 
+1. Access your **Integration Suite Launchpad**.
+![Access Integration Suite Launchpad](/exercises/Images/Launchpad/cockpit-access-launchpad.png)
+
+2. Launch the **Open Connectors** capability.
+![Launch OCN](/exercises/Images/Launchpad/launchpad-select-ocn.png)
+
+3. Select the ***Connectors*** tab.
+![Select Connectors Tab](/exercises/Images/OCN/ocn-select-connectors.png)
+
+4. Filter for **BambooHR** and click on ***Authenticate***.
+![Authenticate BambooHR Connector](/exercises/Images/OCN/ocn-authenticate-bamboohr.png)
+
+5. Enter a **Name** for your instance. 
+    - In the **Company Name** field, enter the first part of the URL from your BambooHR account as shown in the screenshot below. 
+    - In the **API Key** field, enter the API key that you generated in the previous section. 
+![Authenticate BambooHR Connector](/exercises/Images/OCN/ocn-bamboohr-config-connection-1.png)
+
+6. 
+
+  
