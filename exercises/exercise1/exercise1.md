@@ -14,6 +14,6 @@ To enable connectivty between **Integration Suite** and non-SAP applications, yo
 
 Since there are three non-SAP systems that you will be using in this hands-on exercise, you will have to deploy the credentials (login details) of all these applications on your **Cloud Integration** tenant. 
 
-## Configuring Connectivity to Your Gmail Account
+## Configure Connectivity to Your Gmail Account
 
 You will be using the ***Mail*** adapter in the **Cloud Integration** capability to send an email to the **GMail** account of the new hire. To do this, you have to setup connectivity between **Cloud Integration** and **GMail** server 
