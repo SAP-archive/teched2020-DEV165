@@ -6,7 +6,7 @@ In this exercise, you will configure all the components that are required to bui
 
 To enable connectivty between **Integration Suite** and non-SAP applications, you create ***Instances*** in the **Open Connectors** capability. Here, you will find the connector for the non-SAP applications, ***Slack*** and ***BambooHR*** and authenticate them with the required credntials. You can then use these authenticated instances to build your integration scenario. 
 
-### Create Slack Instance
+### [Create Slack Instance](/exercises/exercise1/Ex-1.1.1.md)
 
 ### Create Bamboo HR Instance
 
