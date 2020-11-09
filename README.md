@@ -37,9 +37,9 @@ There are no prior requirements to this exercise. You can perform this even if y
 
 ## Exercises
 
-### - [Prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md)
+### [Prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md)
 
-- 
+
 
 ## How to obtain support
 
