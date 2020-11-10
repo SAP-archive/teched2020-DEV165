@@ -38,15 +38,8 @@ You will use the API key generated in the previous section to authenticate your 
 5. Enter a **Name** for your instance. 
     - In the **Company Name** field, enter the first part of the URL from your BambooHR account as shown in the screenshot below. 
     - In the **API Key** field, enter the API key that you generated in the previous section. 
-![Authenticate BambooHR Connector 1](/exercises/Images/OCN/ocn-bamboohr-config-connection-1.png)
-
-6. Enable the **Event Configuration** switch. This allows you to configure your connector instance to call a URL when a certain event occurs on the **BambooHR** system. 
-    - In the **Event Notification Callback URL** field, enter the URL of your **Cloud Integration** tenant followed by ***http/teched20***. This is the configuration that you will enter in the HTTP sender adapter when you design the integration flow in **Cloud Integration**. 
-    <br>**NOTE:** You can enter any value of your choice for the HTTP endpoint instead of ***teched20***. Please make sure that you use the same value when you configure your **Cloud Integration** iflow's HTTP sender adapter configuration. 
-    - Enter your email ID and password for your SAP Cloud Platform Trial account in the **Event Notification Basic Authentication UserName** and **Event Notification Basic Authentication Password** fields respectively.
-    - In the **Event poller refresh interval (mins)** field, enter the value as ***2***. This will configure the connector to check for new events in your BambooHR system every two minutes. 
+![Authenticate BambooHR Connector](/exercises/Images/OCN/ocn-bamboohr-config-connection.png)
     - Click on **Create Instance**. 
-![Authenticate BambooHR Connector 2](/exercises/Images/OCN/ocn-bamboohr-config-connection-2.png)
 
 7. You will see a confirmation message that the connector instance has been created. Please click on the **Test in the API Docs** to test the connector instance.
 ![Authenticate BambooHR Connector Confirmaton](/exercises/Images/OCN/ocn-authenticate-bamboohr-confirmation.png)
