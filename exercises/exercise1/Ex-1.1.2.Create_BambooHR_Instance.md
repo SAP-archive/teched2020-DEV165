@@ -8,7 +8,7 @@
 ## Generating API Key for BambooHR Account
 You will use this API key as the credential for authenticating your **Open Connectors** BambooHR connector.
 
-1. Login to your **BambooHR** account. Click on the ***Settings*** or gear icon on the top right of your screen and select **API Keys**. 
+1. Login to your **BambooHR** account. Click on the ***Profile*** or image icon on the top right of your screen and select **API Keys**. 
 ![BambooHR API Key](/exercises/Images/OCN/bamboohr-apikey.png)
 
 2. Click on **Add New Key**. 
