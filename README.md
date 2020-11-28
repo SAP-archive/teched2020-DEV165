@@ -15,7 +15,7 @@ In this exercise, you are implementing an integration scenario where your use-ca
 1. Send a welcome email to the new employee, welcoming her/him to your company.
 2. Send a notification in the **<em>Slack</em>** channel of the HR team, notifying them about the new employee and look into the subsequent onboarding tasks for the new employee. 
 
-Here's an overview of the how the scenario architecture will look like:
+You will send a request to a HTTP endpoint, similar to a REST API. This request will contain the **ID** of the new employee. You will trigger the request using the Postman client. Here's an overview of the how the scenario architecture will look like:
 
 <br>![Scenario architecture overview](/exercises/Images/Others/scenario_sol_diagram.png)
 
