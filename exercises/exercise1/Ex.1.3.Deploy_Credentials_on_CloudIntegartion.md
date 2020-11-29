@@ -7,3 +7,6 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 - You have set up **Integration Suite** trial anad activated the **Cloud Integration** capability. If you have not done this yet, please refer to [Prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md) for detailed guidance.
 - You have created **Open Connectors** instances for both **Slack** and **BambooHR**. If you have not done this, please refer to [Create Slack Instance](/exercises/exercise1/Ex-1.1.1.Create_Slack_Instance.md) and [Create BambooHR Instance](/exercises/exercise1/Ex-1.1.2.Create_BambooHR_Instance.md).
 - If you do not have a **GMail** account to be used in this exercise, you can create one using this link: [Create A New GMail Account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp)
+
+## Deploy Slack and Open Connectors Credentials
+
