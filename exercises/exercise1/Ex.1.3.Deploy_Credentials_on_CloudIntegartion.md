@@ -8,7 +8,7 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 - You have created **Open Connectors** instances for both **Slack** and **BambooHR**. If you have not done this, please refer to [Create Slack Instance](/exercises/exercise1/Ex-1.1.1.Create_Slack_Instance.md) and [Create BambooHR Instance](/exercises/exercise1/Ex-1.1.2.Create_BambooHR_Instance.md).
 - If you do not have a **GMail** account to be used in this exercise, you can create one using this link: [Create A New GMail Account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp)
 - Access the **Cloud Integration** application from the **Integration Suite** launchpad. 
-  [Launch Clooud Integration](/exercises/Images/Launchpad/launchpad-select-cpi.png)
+  ![Launch Clooud Integration](/exercises/Images/Launchpad/launchpad-select-cpi.png)
 
 ## Deploy Slack and Open Connectors Credentials
 
