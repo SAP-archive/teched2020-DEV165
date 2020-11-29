@@ -1,4 +1,4 @@
-# Deploy Credentials in Cloud Integration
+# Deploy Credentials on Cloud Integration
 
 You will be using the **Open Connector** instances for **BambooHR** and **Slack** in your **Cloud Integration** tenant for building the integration scenario. To do this, you must first deploy the credentials, or authorization details, for your connector instances on your **Cloud Integration** tenant. 
 
