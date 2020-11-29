@@ -12,5 +12,8 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 
 ## Deploy Slack and Open Connectors Credentials
 
-1. Navigate to **Security Material** by selecting **Monitor > Security Material**.
+1. Navigate to **Security Material** by choosing **Monitor > Security Material**.
 ![Access Security Material](/exercises/Images/Deploy_Credentials_CPI/access-security-material.png)
+
+2. Create user credentials by choosing **Create > User Credentials**
+![Create user credentials](/exercises/Images/Deploy_Credentials_CPI/create-user-credentials.png)
