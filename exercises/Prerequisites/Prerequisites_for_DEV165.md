@@ -30,6 +30,9 @@ You need to configure your **GMail** account to enable it to receive emails from
 #### Disable Two-Factor Authentication
 You have to disable two-factor authentication since this is required for **Cloud Integration** to deliver emails to your account. Follow the steps mentioned here: [Disable Two-Factor Authentication](https://support.google.com/accounts/answer/1064203?co=GENIE.Platform%3DDesktop&hl=en).
 
+### Unlock Captcha Verification
+You have to disable captcha verification to allow your Cloud Integration account to communicate with your **GMail** account. You can do this by opening this link: [Unlock GMail Captcha Verification](http://www.google.com/accounts/DisplayUnlockCaptcha). If prompted, please sign in with your GMail credentials.  
+
 #### Enable Access for Less Secure Apps
 You have to enable your GMail account to connect to less secure apps. Please follow the [steps mentioned here](https://myaccount.google.com/lesssecureapps) to configure this option. This is Google terminology for allowing applicaton-based access to your GMail account. If you are not comfortable doing this to your personal account, you can create a new one for this hands-on exercise. 
 
