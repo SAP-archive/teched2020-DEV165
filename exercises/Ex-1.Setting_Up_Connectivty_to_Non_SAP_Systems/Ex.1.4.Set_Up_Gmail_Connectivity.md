@@ -21,6 +21,6 @@ In this step, you will deploy your username and password on your **Cloud Integra
 4. In the **Name** and **Description** fields, enter a name and description that indicates that the credentials is for GMail account. In the **User** field, enter your GMail ID and enter your password in the **Password** field. Re-enter the password in the **Repeat Password** field and choose **Deploy**
 ![Deploy GMail Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-gmail-credentials.png)
 
-## Performing a Connectivity Test with Your Deployed Credentials
+## Performing Connectivity Test with Your Deployed Credentials
 
 
