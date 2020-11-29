@@ -1,4 +1,4 @@
-# Setting Up Components for Building Your Integration Scenario
+# Setting Up Connectivity to Non-SAP Systems
 
 In this exercise, you will configure all the components that are required to build, deploy and test your non-SAP integration scenario. You will perform the following steps:
 
