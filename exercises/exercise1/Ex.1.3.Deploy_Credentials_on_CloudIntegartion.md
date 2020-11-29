@@ -43,5 +43,5 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 3. Enter values in fields based on description in table:</br>
 | Field | Description |
 | --- | --- |
-|Name   |Name of your GMail credentials|
+| Name | Name of your GMail credentials |
 
