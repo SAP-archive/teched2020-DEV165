@@ -21,7 +21,11 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 3. In the **Type** dropdown list, select the type **Open Connectors**.
 ![Select Type Open Connectors](/exercises/Images/Deploy_Credentials_CPI/select-type-open-connectors.png)
 
-4. Enter a **Name** and **Description** that identifies this credential as the one specific to your **Slack** Open Connectors instance. In the **User** and **Organization** field, enter the **User Secret** and **Organization Secret** from your **Open Connnectors** application. In the **Element** field, enter the **Instance Token** specific to the **Slack** instance in your **Open Connectors** application. Refer to the screenshot below to learn how you can obtain the values for the respective fields from your **Open Connectors** application and the corresponding fields in your **Cloud Integration** tenant. 
+4. Enter a **Name** and **Description** that identifies this credential as the one specific to your **Slack** Open Connectors instance. 
+   In the **User** and **Organization** field, enter the **User Secret** and **Organization Secret** from your **Open Connnectors** application. 
+   In the **Element** field, enter the **Instance Token** specific to the **Slack** instance in your **Open Connectors** application. 
+   Refer to the screenshot below to learn how you can obtain the values for the respective fields from your **Open Connectors** application and the corresponding fields in your **Cloud Integration** tenant. 
+   After entering all the details, select **Deploy** to deploy or activate the credentials. 
 ![Create Slack Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-slack-credentials.png)
 
 5. Follow the same steps to deploy **BambooHR Open Connectors** credentials on your **Cloud Integration**. 
