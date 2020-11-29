@@ -25,4 +25,4 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 ![Create Slack Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-slack-credentials.png)
 
 5. Follow the same steps to deploy **BambooHR Open Connectors** credentials on your **Cloud Integration**. 
-![Create BambooHR Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-bamboohr-credentials.png)
+![Create BambooHR Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-bambooHR-credentials.png)
