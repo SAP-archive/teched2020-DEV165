@@ -27,7 +27,7 @@ In this part of the exercise, you will use the credentials you deployed to perfo
 1. Launch the **Connectivity Tests** in the **Monitor** view of your **Cloud Integration** tenant.
 ![Launch connectivity test](/exercises/Images/Gmail_Setup/cpi-launch-connectivity-test.png)
 
-2. Select the **SMTP** tab. In the host, enter **`smtp.gmail.com`** and choose **STARTTLS Mandatory** in the **Protection** dropdown list. 
+2. Select the **SMTP** tab. In the host, enter `smtp.gmail.com` and choose **STARTTLS Mandatory** in the **Protection** dropdown list. 
 ![Gmail connectivity 1](/exercises/Images/Gmail_Setup/gmail-connectivity-1.png)
 
 3. In the **Authentication** field, select the **Plain User/Password** radio button. In the **Credential Name** dropdown list, choose the credential for your **GMail** account. 
