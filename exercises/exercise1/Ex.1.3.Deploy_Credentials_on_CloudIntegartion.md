@@ -1,4 +1,4 @@
-# Deploy Credentials on Cloud Integration
+# Deploy Open Connectors Credentials on Cloud Integration
 
 You will be using the **Open Connector** instances for **BambooHR** and **Slack** in your **Cloud Integration** tenant for building the integration scenario. To do this, you must first deploy the credentials, or authorization details, for your connector instances on your **Cloud Integration** tenant. Also, you will have to deploy your **GMail** username and password to enable connectivity between **Integration Suite** and **GMail** account. 
 
@@ -31,17 +31,3 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 
 5. Follow the same steps as in the previous step to deploy **BambooHR Open Connectors** credentials on your **Cloud Integration** tenant. Please ensure that you choose a unique name to identify the **BambooHR** credentials. 
 ![Create BambooHR Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-bambooHR-credentials.png)
-
-## Deploy GMail Credentials
-
-1. Navigate to **Security Material** by choosing **Monitor > Security Material**.
-![Access Security Material](/exercises/Images/Deploy_Credentials_CPI/access-security-material.png)
-
-2. Create user credentials by choosing **Create > User Credentials**.
-![Create user credentials](/exercises/Images/Deploy_Credentials_CPI/create-user-credentials.png)
-
-3. Enter values in fields based on description in table:</br>
-| Field | Description |
-| --- | --- |
-| Name | Name of your GMail credentials |
-
