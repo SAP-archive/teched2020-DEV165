@@ -7,7 +7,7 @@ In this exercise, you will set up connectivity between your **Cloud Integration*
 Please ensure that you have completed all the steps specific to the **GMail** account in the [prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md). 
 
 ## Deploying GMail Credentials on Cloud Integration
-In this step, you will deploy your username and password on your **Cloud Integration** tenant. 
+In this part of the exercise, you will deploy your username and password on your **Cloud Integration** tenant. 
 
 1. Launch the **Cloud Integration** application from your **Integration Suite** launchpad.
 ![Launch Cloud Integration](/exercises/Images/Launchpad/launchpad-select-cpi.png)
@@ -22,5 +22,14 @@ In this step, you will deploy your username and password on your **Cloud Integra
 ![Deploy GMail Credentials](/exercises/Images/Deploy_Credentials_CPI/create-deploy-gmail-credentials.png)
 
 ## Performing Connectivity Test with Your Deployed Credentials
+In this part of the exercise, you will use the credentials you deployed to perform a connectivity test with your **GMail** account. Upon successful completion of the test, you will download the server certificates and import them into your **Cloud Integration** tenant. This will ensure that when you send an email using an integration flow, the valid server certificates for the connections are already available. 
 
+1. Launch the **Connectivity Tests** in the **Monitor** view of your **Cloud Integration** tenant.
+![Launch connectivity test](/exercises/Images/Gmail_Setup/cpi-launch-connectivity-test.png)
+
+2. Select the **SMTP** tab. In the host, enter **`smtp.gmail.com`** and choose **STARTTLS Mandatory** in the **Protection** dropdown list. 
+![Gmail connectivity 1](/exercises/Images/Gmail_Setup/gmail-connectivity-1.png)
+
+3. In the **Authentication** field, select the **Plain User/Password** radio button. In the **Credential Name** dropdown list, choose the credential for your **GMail** account. 
+![Gmail connectivity 2](/exercises/Images/Gmail_Setup/gmail-connectivity-2.png)
 
