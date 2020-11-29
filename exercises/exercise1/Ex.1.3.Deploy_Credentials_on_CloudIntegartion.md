@@ -41,7 +41,7 @@ You will be using the **Open Connector** instances for **BambooHR** and **Slack*
 ![Create user credentials](/exercises/Images/Deploy_Credentials_CPI/create-user-credentials.png)
 
 3. Enter values in fields based on description in table:
-| Field | Description |
-|-------|-------------|
-|Name|Name of your GMail credentials|
+| Field | Description                  |
+|-------|------------------------------|
+|Name   |Name of your GMail credentials|
 
