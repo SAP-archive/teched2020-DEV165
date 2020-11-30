@@ -36,5 +36,8 @@ In this part of the exercise, you will use the credentials you deployed to perfo
 4. Uncheck the **Valid Server Certificate Required** checkbox and click on **Send**.
 ![Gmail connectivity 3](/exercises/Images/Gmail_Setup/gmail-connectivity-3.png)
 
-5. 
+5. If the connection test is successful, you will see a success message as indicated below. If you do not see it, please verify if you have performed all the aforementioned steps, including the [prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md). 
+
+   Once you see the success message, click on the download icon (arrow pointing down) to download the GMail server certificates and save it on a identifiable folder in your file system. You will learn how to import it and deploy it on your **Cloud Integration** tenant in the next section.
+![Gmail connectivity 4](/exercises/Images/Gmail_Setup/gmail-connectivity-4.png)
 
