@@ -39,5 +39,29 @@ In this part of the exercise, you will use the credentials you deployed to perfo
 5. If the connection test is successful, you will see a success message as indicated below. If you do not see it, please verify if you have performed all the aforementioned steps, including the [prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md). 
 
    Once you see the success message, click on the download icon (arrow pointing down) to download the GMail server certificates and save it on a identifiable folder in your file system. You will learn how to import it and deploy it on your **Cloud Integration** tenant in the next section.
+   
+   You should have a zip file that contains two server certificates from **GMail**, namely **GTS CA 1O1.cer** and **smtp.gmail.com.cer**. 
 ![Gmail connectivity 4](/exercises/Images/Gmail_Setup/gmail-connectivity-4.png)
+
+## Import and Deploy GMail Server Certificates on Cloud Integration
+In this part of the exercise, you will import the **GMail** server certificates you downloaded in the previous step and deploy them on your **Cloud Integration** tenant. 
+
+1. Access the **Cloud Integration Keystore** by selecting **Monitor > Keystore**. 
+![GMail Import Certificate 1](/exercises/Images/Gmail_Setup/gmail-import-cert-1.png)
+
+2. Choose **Add > Certificate** to import the GMail server certificate that you downloaded to your local file system.
+![GMail Import Certificate 1.1](/exercises/Images/Gmail_Setup/gmail-import-cert-1.1.png)
+
+3. In the **Add Certificate** pop-up, enter an **Alias** name and click on **Browse**.
+![GMail Import Certificate 2](/exercises/Images/Gmail_Setup/gmail-import-cert-2.png)
+
+4. Navigate to the folder where you downloaded the server certificates in the previous part of this exercise, choose one of the certificates and import it to the **Cloud Integration** tenant.
+![GMail Import Certificate 3](/exercises/Images/Gmail_Setup/gmail-import-cert-3.png)
+
+5. In the prompt to **Confirm Certificate**, chooe **Confirm**.
+![GMail Import Certificate 4](/exercises/Images/Gmail_Setup/gmail-import-cert-4.png)
+
+6. Repeat steps **2** to **5** to import the other certificate as well.  
+
+
 
