@@ -33,3 +33,8 @@ In this part of the exercise, you will use the credentials you deployed to perfo
 3. In the **Authentication** field, select the **Plain User/Password** radio button. In the **Credential Name** dropdown list, choose the credential for your **GMail** account. 
 ![Gmail connectivity 2](/exercises/Images/Gmail_Setup/gmail-connectivity-2.png)
 
+4. Uncheck the **Valid Server Certificate Required** checkbox and click on **Send**.
+![Gmail connectivity 3](/exercises/Images/Gmail_Setup/gmail-connectivity-3.png)
+
+5. 
+
