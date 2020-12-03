@@ -25,6 +25,17 @@
 7. You will see a confirmation dialog that the instance has been created. Now, let us test it using the API docs that are provided out-of-the-box. Click on ***Test in the API Docs***. 
 ![Test Slack Connector 1](/exercises/Images/Slack/ocn-slack-testapidoc-1.png)
 
+8. Look for the resource **/channels** with **POST** operation. This resource will let you create a new channel. Click on ***Try it out***.
+![Test Slack Connector 1.1](/exercises/Images/Slack/ocn-slack-testapidoc-1.1.png)
+
+9. In the **Edit Value** field, specify the channel name as **teched2020** and click on **Execute**.
+![Test Slack Connector 1.2](/exercises/Images/Slack/ocn-slack-testapidoc-1.2.png)
+
+If the call is successful, you will seethe response code 200.
+
+10. Navigate to your **Slack** channel. You should see a new channel with the name **teched2020**.
+![Test Slack Connector 1.3](/exercises/Images/Slack/ocn-slack-testapidoc-1.3.png)
+
 8. Look for the resource **/channels/{channelId}/messages**. This resource will let you post a message to your Slack channel. Click on ***Try it out***.
 ![Test Slack Connector 2](/exercises/Images/Slack/ocn-slack-testapidoc-2.png)
 
