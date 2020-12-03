@@ -33,16 +33,16 @@
 
 If the call is successful, you will seethe response code 200.
 
-10. Navigate to your **Slack** channel. You should see a new channel with the name **teched2020**.
+10. Access to your **Slack** account. You should see a new channel with the name **teched2020**.
 ![Test Slack Connector 1.3](/exercises/Images/Slack/ocn-slack-testapidoc-1.3.png)
 
-8. Look for the resource **/channels/{channelId}/messages**. This resource will let you post a message to your Slack channel. Click on ***Try it out***.
+11. Switch back to **Open Connectors**. In the **API Docs**, look for the resource **/channels/{channelId}/messages**. This resource will let you post a message to your Slack channel. Click on ***Try it out***.
 ![Test Slack Connector 2](/exercises/Images/Slack/ocn-slack-testapidoc-2.png)
 
-9. You have to provide your **ChannelID**. This is the last part of the URL when you have accessed your Slack channel. Please copy and paste it in the ***channelid*** field. Enter a message in the same format as shown in the screenshot below and then click on ***Execute**.
+12. You have to provide your **ChannelID**. This is the last part of the URL when you have accessed your Slack channel. Please copy and paste it in the ***channelid*** field. Enter a message in the same format as shown in the screenshot below and then click on ***Execute**.
 ![Test Slack Connector 3](/exercises/Images/Slack/ocn-slack-testapidoc-3.png)
 
-10. If everything is in order, you will see a response code **200** indicating a successful operation. You will also see a message in your Slack channel, **My Test Message** or whatever text that you provided in the request body. 
+13. If everything is in order, you will see a response code **200** indicating a successful operation. You will also see a message in your Slack channel, **My Test Message** or whatever text that you provided in the request body. 
 ![Test Slack Connector 4](/exercises/Images/Slack/ocn-slack-testapidoc-4.png)
 
 You now have a working Slack **Open Connectors** instance. 
