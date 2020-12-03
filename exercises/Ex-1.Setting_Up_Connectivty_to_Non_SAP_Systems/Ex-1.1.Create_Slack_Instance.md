@@ -31,7 +31,7 @@
 9. In the **Edit Value** field, specify the channel name as **teched2020** and click on **Execute**.
 ![Test Slack Connector 1.2](/exercises/Images/Slack/ocn-slack-testapidoc-1.2.png)
 
-If the call is successful, you will seethe response code 200.
+  If the call is successful, you will seethe response code 200.
 
 10. Access to your **Slack** account. You should see a new channel with the name **teched2020**.
 ![Test Slack Connector 1.3](/exercises/Images/Slack/ocn-slack-testapidoc-1.3.png)
