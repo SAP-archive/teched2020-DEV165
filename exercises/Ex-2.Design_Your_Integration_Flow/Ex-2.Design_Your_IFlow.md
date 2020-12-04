@@ -134,7 +134,7 @@ Here's a short clip that show you how to do this:
 37. Rename the **Content Modifier** to ***Set EMail Message***.
 ![Create iflow 37](/exercises/Images/design_iflow/cpi-create-iflow-37.png)
 
-38. Select the **Message Body** tab. In the **Body** field, paste the following code:
+38. Select the **Message Body** tab. In the **Body** field, paste the following HTML code. This is the email message in HTML format that the newly onboarded employee will receive.
 
 ```HTML
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -317,3 +317,6 @@ Here's a short clip that show you how to do this:
 </html>
 ```
 
+![Create iflow 38](/exercises/Images/design_iflow/cpi-create-iflow-38.png)
+
+39. Connect he 
