@@ -112,3 +112,6 @@ Here's a short clip that show you how to do this:
 ![Create iflow 32.1](/exercises/Images/design_iflow/cpi-create-iflow-32.2.png)
 
 33. 
+|Cloumn1|Column2|
+|:-----:|:------:|
+|Test 1|Test 2|
