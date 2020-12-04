@@ -38,4 +38,26 @@ In this part of the exercise, you will design, configure and deploy the integrat
 
 Here's a short clip of the process:
 ![Add Adapter GIF](/exercises/Images/design_iflow/add-adapter.gif)
-Here's a short clip showing how you can do this:
+
+10. In the adapter settings, choose the **Connection** tab. In the **Address** field, enter ***/dev165demo***. You can enter any value of your choice; please follow the convention of adding a "**/**" before the value. Disable the **CSRF Protected** checkbox. 
+![Create iflow 10](/exercises/Images/design_iflow/cpi-create-iflow-10.png)
+
+11. Click on the **Start** step and select the **+** icon.
+![Create iflow 11](/exercises/Images/design_iflow/cpi-create-iflow-11.png)
+
+12. In the **Add Flow** step, select **Content Modifier**.
+![Create iflow 12](/exercises/Images/design_iflow/cpi-create-iflow-12.png)
+
+13. In the step settings, enter the name as **Read Employee ID**. It is a good design practice to name every flow step based on its purpose in the scenario so that it is easy for everyone else who uses the same integration flow to understand the design. 
+![Create iflow 13](/exercises/Images/design_iflow/cpi-create-iflow-13.png)
+
+14. Select **Exchange Property > Add** to add an exchange property. 
+![Create iflow 14](/exercises/Images/design_iflow/cpi-create-iflow-14.png)
+
+15. In the **Name** field, enter ***empid***. In the **Type** dropdown, select **XPath**.
+![Create iflow 15](/exercises/Images/design_iflow/cpi-create-iflow-15.png)
+
+16. In the **Data Type** field, enter ***java.lang.String***. In the **Value** field, enter ***/eid/text()***. Here, you are creating an exchange property where the property value is set based on the XPath value. 
+![Create iflow 16](/exercises/Images/design_iflow/cpi-create-iflow-16.png)
+
+17. 
