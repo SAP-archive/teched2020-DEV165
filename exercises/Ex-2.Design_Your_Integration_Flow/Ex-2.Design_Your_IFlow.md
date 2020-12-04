@@ -111,7 +111,10 @@ Here's a short clip that show you how to do this:
 32. Select the **Exchange Property** tab and click on **Add**.
 ![Create iflow 32.1](/exercises/Images/design_iflow/cpi-create-iflow-32.2.png)
 
-33. 
-|Cloumn1|Column2|
+33. Add the values in respective field based on the table below
+|Field|Description|
 |:-----:|:------:|
-|Test 1|Test 2|
+|Name|***workemail***|
+|Type|Select **XPath** from dropdown list|
+|Data Type|***java.lang.String***|
+|Value|***/root/workEmail***|
