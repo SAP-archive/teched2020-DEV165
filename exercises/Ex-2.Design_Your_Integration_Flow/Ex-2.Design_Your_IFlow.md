@@ -63,4 +63,11 @@ Here's a short clip that show you how to do this:
 16. In the **Data Type** field, enter ***java.lang.String***. In the **Value** field, enter ***/eid/text()***. Here, you are creating an exchange property where the property value is set based on the XPath value. 
 ![Create iflow 16](/exercises/Images/design_iflow/cpi-create-iflow-16.png)
 
-17. Select the **Read Employee ID**
+17. Select the **Read Employee ID** step and select the **+** icon to add a new step. Then, select **Request Reply**. 
+![Create iflow 17](/exercises/Images/design_iflow/cpi-create-iflow-17.png)
+
+18. Rename the step to ***Fetch Employee Data from BambooHR***. 
+![Create iflow 18](/exercises/Images/design_iflow/cpi-create-iflow-18.png)
+
+19. From the palette, )
+
