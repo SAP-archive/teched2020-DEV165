@@ -114,7 +114,4 @@ Here's a short clip that show you how to do this:
 33. Add the values in respective field based on the table below
 |Field|Description|
 |:-----:|:------:|
-|Name|***workemail***|
-|Type|Select **XPath** from dropdown list|
-|Data Type|***java.lang.String***|
-|Value|***/root/workEmail***|
+|Test|Test|
