@@ -84,7 +84,7 @@ Here's a short clip that show you how to do this:
 23. In the **Open Connectors** setting, enter the **Base URI** that you noted while configuring your Open Connectors connector. Refer to **Step 9** of the [**BambooHR** configuration document](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex-1.2.Create_BambooHR_Instance.md) for this information. Then, click on **Select** in the **Credential Name** field.
 ![Create iflow 23](/exercises/Images/design_iflow/cpi-create-iflow-23.png)
 
-24. From the list of credentials, select the one that you created for **BambooHR**.
+24. From the list of credentials, select the one that you created for **BambooHR**. Refer to [step-5 of this exercise](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.3.Deploy_Credentials_on_CloudIntegartion.md) for the credential name. 
 ![Create iflow 24](/exercises/Images/design_iflow/cpi-create-iflow-24.png)
 
 25. Click on the **Select** icon in **Resource** field.
@@ -335,4 +335,77 @@ Here's a short clip that show you how to do this:
 |Address| ***smtp.gmail.com***|
 |Protection|**STARTTLS Mandatory**|
 |Authentication|**Plain User/Password**|
-|Credential Name|Enter the name of the credentials that you used for your **GMail** acount in [this exercise](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.4.Set_Up_Gmail_Connectivity.md)|
+|Credential Name|Enter the name of the credentials that deployed for your **GMail** acount in [this exercise](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.4.Set_Up_Gmail_Connectivity.md)|
+
+![Create iflow 42](/exercises/Images/design_iflow/cpi-create-iflow-42.png)
+
+43. Select the **Processing** tab. In the **From** field, enter ***hr@bestrun.com***. In the **To** field, enter ***${property.workemail}***. In the **Subject** enter ***Welcome Aboard!***. In the **Body Mime-Type** dropdown list, select **Text/HTML**. 
+![Create iflow 43](/exercises/Images/design_iflow/cpi-create-iflow-43.png)
+
+44. From the palette, select the **Content Modifier**.
+![Create iflow 44](/exercises/Images/design_iflow/cpi-create-iflow-44.png)
+
+45. Place it inside the integration process, below the **Set EMail Message** step. Use the guidelines to align the step.
+![Create iflow 45](/exercises/Images/design_iflow/cpi-create-iflow-45.png)
+
+46. Connect the **Parallel Multicast** to the **Content Modifier**.
+![Create iflow 46](/exercises/Images/design_iflow/cpi-create-iflow-46.png)
+
+47. Rename the **Content Modifier** to ***Model Slack Message***.
+![Create iflow 47](/exercises/Images/design_iflow/cpi-create-iflow-47.png)
+
+48. Select the **Message Body** tab and enter the following JSON code in the **Body** field. This is the message that you will see in the **Slack** channel.
+
+```JSON
+{
+"text":"Team, a new employee, ${property.fname} ${property.lname}, has been onboarded to the HR system. Could you please follow up with the next steps by sending the welcome package and sending the virtual onboarding instructions? You can get in touch with the employee via email: ${property.workemail}. Employee address: ${property.address1}, ${property.address2}, ${property.city}, ${property.zip}, ${property.state}, ${property.country}."
+}
+```
+
+![Create iflow 48](/exercises/Images/design_iflow/cpi-create-iflow-48.png)
+
+49. Add a **Request Reply** step next to **Model Slack Message**. 
+![Create iflow 49](/exercises/Images/design_iflow/cpi-create-iflow-49.png)
+
+50. Rename the **Request Reply** step to ***Send Slack Message***.
+![Create iflow 50](/exercises/Images/design_iflow/cpi-create-iflow-50.png)
+
+51. Add **End Message** next to **Send Slack Message**.
+![Create iflow 51](/exercises/Images/design_iflow/cpi-create-iflow-51.png)
+
+52. From the palette, add a **Receiver** outside the integration process. You can use the guidelines to align it with the **GMail** receiver and **End1**.
+![Create iflow 52](/exercises/Images/design_iflow/cpi-create-iflow-52.png)
+
+53. Connect **Send Slack Message** to **Receiver1**.
+![Create iflow 53](/exercises/Images/design_iflow/cpi-create-iflow-53.png)
+
+54. In the **Adapter Type** dialog, select **Open Connectors**. 
+![Create iflow 54](/exercises/Images/design_iflow/cpi-create-iflow-54.png)
+
+55. Select **Receiver1** and rename it to ***Slack***.
+![Create iflow 55](/exercises/Images/design_iflow/cpi-create-iflow-55.png)
+
+56. In the **Base URI** field, enter the same value that you entered when you configured the adapter to connect with **BambooHR** system. 
+![Create iflow 56](/exercises/Images/design_iflow/cpi-create-iflow-56.png)
+
+57. In the **Credential Name** field, click on **Select**. In the dialog, select the credentials for your **Slack** instance. Refer to [step-4 of this exercise](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.3.Deploy_Credentials_on_CloudIntegartion.md) for the credential name. 
+![Create iflow 57](/exercises/Images/design_iflow/cpi-create-iflow-57.png)
+
+58. Click on **Select** in the **Resource** field and select the resource **/channels/{channelId}/messages**. 
+![Create iflow 58](/exercises/Images/design_iflow/cpi-create-iflow-58.png)
+
+59. In the **Resource** field, replace the **{channelId}** with the channelID of your **Slack** channel. You can find it from the URL of your Slack channel as shown in the image below. 
+![Create iflow 59](/exercises/Images/design_iflow/cpi-create-iflow-59.png)
+
+60. In the **Method** dropdown list, select **POST**.
+![Create iflow 60](/exercises/Images/design_iflow/cpi-create-iflow-60.png)
+
+61. Click on **Save** and then click on **Deploy**. Then, select the **Monitor** view of **Cloud Integration**.
+![Create iflow 61](/exercises/Images/design_iflow/cpi-create-iflow-61.png)
+
+62. In the **Manage Integration Content** section, click on the tile **All**.
+![Create iflow 62](/exercises/Images/design_iflow/cpi-create-iflow-62.png)
+
+63. Once the integration flow is in **Started** state, click on the **Copy** icon to copy the endpoint. You will use this endpoint in the **Postman** client. 
+![Create iflow 63](/exercises/Images/design_iflow/cpi-create-iflow-63.png)
+
