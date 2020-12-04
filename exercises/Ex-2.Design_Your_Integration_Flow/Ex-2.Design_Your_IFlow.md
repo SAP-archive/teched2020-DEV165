@@ -116,3 +116,7 @@ Here's a short clip that show you how to do this:
 34. 
 |Field|Description|
 |:-----:|:------:|
+|Name|***workemail***|
+|Type|Select **XPath** from dropdown list|
+|Data Type|***java.lang.String***|
+|Value|***/root/workEmail***|
