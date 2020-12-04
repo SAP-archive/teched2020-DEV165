@@ -319,4 +319,20 @@ Here's a short clip that show you how to do this:
 
 ![Create iflow 38](/exercises/Images/design_iflow/cpi-create-iflow-38.png)
 
-39. Connect he 
+39. Connect the **End** step to the **Receiver**. In the **Adapter Type** dialog, select **Mail** adapter. 
+![Create iflow 39](/exercises/Images/design_iflow/cpi-create-iflow-39.png) 
+
+40. Select the receiver and rename it as **GMail**.
+![Create iflow 40](/exercises/Images/design_iflow/cpi-create-iflow-40.png)
+
+41. Select the receiver channel with the mail adapter. 
+![Create iflow 41](/exercises/Images/design_iflow/cpi-create-iflow-41.png)
+
+42. Select the **Connection** tab. Configure the settings based on the information in table below:
+
+|Field|Description|
+|:----:|:-----:|
+|Address| ***smtp.gmail.com***|
+|Protection|**STARTTLS Mandatory**|
+|Authentication|**Plain User/Password**|
+|Credential Name|Enter the name of the credentials that you used for your **GMail** acount in [this exercise](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.4.Set_Up_Gmail_Connectivity.md)|
