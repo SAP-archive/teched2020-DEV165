@@ -84,7 +84,19 @@ Here's a short clip that show you how to do this:
 23. In the **Open Connectors** setting, enter the **Base URI** that you noted while configuring your Open Connectors connector. Refer to **Step 9** of the [**BambooHR** configuration document](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex-1.2.Create_BambooHR_Instance.md) for this information. Then, click on **Select** in the **Credential Name** field.
 ![Create iflow 23](/exercises/Images/design_iflow/cpi-create-iflow-23.png)
 
-24. 
+24. From the list of credentials, select the one that you created for **BambooHR**.
+![Create iflow 24](/exercises/Images/design_iflow/cpi-create-iflow-24.png)
 
-24. 
+25. Click on the **Select** icon in **Resource** field.
+![Create iflow 25](/exercises/Images/design_iflow/cpi-create-iflow-25.png)
 
+26. In the **List of resources**, choose **/employees/{id}**.
+![Create iflow 26](/exercises/Images/design_iflow/cpi-create-iflow-26.png)
+
+27. Replace the **{id}** part with ***${property.empid}***.
+![Create iflow 27](/exercises/Images/design_iflow/cpi-create-iflow-27.png)
+
+28. Add the flow step **JSON to XML**. 
+![Create iflow 30](/exercises/Images/design_iflow/cpi-create-iflow-30.png)
+
+29. 
