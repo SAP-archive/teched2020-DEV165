@@ -99,4 +99,16 @@ Here's a short clip that show you how to do this:
 28. Add the flow step **JSON to XML**. 
 ![Create iflow 30](/exercises/Images/design_iflow/cpi-create-iflow-30.png)
 
-29. 
+29. Rename the flow step to **Convert response to XML**.
+![Create iflow 31](/exercises/Images/design_iflow/cpi-create-iflow-31.png)
+
+30. Add the flow step **Content Modifier**. 
+![Create iflow 32](/exercises/Images/design_iflow/cpi-create-iflow-32.png)
+
+31. Rename the **Content Modifier** to ***Read Employee Details**.
+![Create iflow 32.1](/exercises/Images/design_iflow/cpi-create-iflow-32.1.png)
+
+32. Select the **Exchange Property** tab and click on **Add**.
+![Create iflow 32.1](/exercises/Images/design_iflow/cpi-create-iflow-32.2.png)
+
+33. 
