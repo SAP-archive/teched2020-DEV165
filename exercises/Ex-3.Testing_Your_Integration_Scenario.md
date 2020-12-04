@@ -12,6 +12,7 @@ In this exercise, you will test the integration scenario that you have designed.
 1. Login to your **BambooHR** system. 
 
 2. Select **New > New Employee**.
+![Create Bamboo Employee 1](/exercises/Images/Testing%20Your%20Integration%20Scenario/Creating%20Bamboo%20Employee/create-bamboo-emp-1.png)
 
 3. Mandatorily enter the following values. If you wish, you can also enter values for the other fields as well. Once you have entered all the values, click on **Save**.
 
@@ -24,5 +25,8 @@ In this exercise, you will test the integration scenario that you have designed.
 |**Address**|Mandatorily fill all values of the address, including the postcode and country|
 |**Work Email**|Enter the emailID of your GMail account that you used for this exercise|
 
+![Create Bamboo Employee 2](/exercises/Images/Testing%20Your%20Integration%20Scenario/Creating%20Bamboo%20Employee/create-bamboo-emp-2.png)
+
 4. You will see a success message that the employee has been added. From the browser URL, plese make a note of the employeeID. You will see it indicated by the **id** URL parameter. 
+![Create Bamboo Employee 3](/exercises/Images/Testing%20Your%20Integration%20Scenario/Creating%20Bamboo%20Employee/create-bamboo-emp-3.png)
 
