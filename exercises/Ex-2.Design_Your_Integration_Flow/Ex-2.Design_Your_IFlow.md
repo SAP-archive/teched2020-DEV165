@@ -69,5 +69,22 @@ Here's a short clip that show you how to do this:
 18. Rename the step to ***Fetch Employee Data from BambooHR***. 
 ![Create iflow 18](/exercises/Images/design_iflow/cpi-create-iflow-18.png)
 
-19. From the palette, )
+19. From the palette, select the **Receiver**.
+![Create iflow 19](/exercises/Images/design_iflow/cpi-create-iflow-19.png)
+
+20. Place the receiver below **Fetch Employee Data** but *outside the **Integration Process*** as shown in the image below.
+![Create iflow 20](/exercises/Images/design_iflow/cpi-create-iflow-20.png)
+
+21. Select the **Receiver** and rename it as ***BambooHR***.
+![Create iflow 21](/exercises/Images/design_iflow/cpi-create-iflow-21.png)
+
+22. Connect the **Fetch Employee Data** to **BambooHR**. When the **Adapter Type** dialog pops up, select the **Open Connectors** adapter. 
+![Create iflow 22](/exercises/Images/design_iflow/cpi-create-iflow-22.png)
+
+23. In the **Open Connectors** setting, enter the **Base URI** that you noted while configuring your Open Connectors connector. Refer to **Step 9** of the [**BambooHR** configuration document](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex-1.2.Create_BambooHR_Instance.md) for this information. Then, click on **Select** in the **Credential Name** field.
+![Create iflow 23](/exercises/Images/design_iflow/cpi-create-iflow-23.png)
+
+24. 
+
+24. 
 
