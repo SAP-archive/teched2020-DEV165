@@ -108,7 +108,7 @@ Here's a short clip that show you how to do this:
 31. Rename the **Content Modifier** to ***Read Employee Details**.
 ![Create iflow 32.1](/exercises/Images/design_iflow/cpi-create-iflow-32.1.png)
 
-32. Select the **Exchange Property** tab and click on **Add**.
+32. Select the **Exchange Property** tab and click on **Add**. Here, you are reading the value of a field from the response that you received from **BamboHR** system.
 ![Create iflow 32.1](/exercises/Images/design_iflow/cpi-create-iflow-32.2.png)
 
 33. Add the values in respective field based on the table below
@@ -119,3 +119,18 @@ Here's a short clip that show you how to do this:
 |Type|Select **XPath** from dropdown list|
 |Data Type|***java.lang.String***|
 |Value|***/root/workEmail***|
+
+![Create iflow 33](/exercises/Images/design_iflow/cpi-create-iflow-33.png)
+
+34. Similarly, add the remaining peroperty values indicated by the screenshot below. You will be using all these properties in the creating the email template and the **Slack** message.
+![Create iflow 34](/exercises/Images/design_iflow/cpi-create-iflow-34.png)
+
+35. Add a **Parallel Multicast** step.
+![Create iflow 35](/exercises/Images/design_iflow/cpi-create-iflow-35.png)
+
+36. Add **Content Modifier** step.
+![Create iflow 36](/exercises/Images/design_iflow/cpi-create-iflow-36.png)
+
+37. Rename the **Content Modifier** to ***Set EMail Message***.
+![Create iflow 37](/exercises/Images/design_iflow/cpi-create-iflow-37.png)
+
