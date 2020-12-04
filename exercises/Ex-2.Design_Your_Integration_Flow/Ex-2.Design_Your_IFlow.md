@@ -113,7 +113,6 @@ Here's a short clip that show you how to do this:
 
 33. Add the values in respective field based on the table below
 
-34. 
 |Field|Description|
 |:-----:|:------:|
 |Name|***workemail***|
