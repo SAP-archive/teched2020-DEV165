@@ -10,7 +10,7 @@ To enable connectivty between **Integration Suite** and non-SAP applications, yo
 
 ### [Create Bamboo HR Instance](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex-1.2.Create_BambooHR_Instance.md)
 
-## [Deploy Credentials of Non-SAP Applications on Cloud Integration](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.3.Deploy_Credentials_on_CloudIntegartion.md)
+## [Deploy Open Connectors Credentials on Cloud Integration](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.3.Deploy_Credentials_on_CloudIntegartion.md)
 
 Since there are three non-SAP systems that you will be using in this hands-on exercise, you will have to deploy the credentials (login details of your **GMail** account and Open Connectors instances) of all these applications on your **Cloud Integration** tenant. 
 
