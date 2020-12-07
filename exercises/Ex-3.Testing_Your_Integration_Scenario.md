@@ -12,7 +12,7 @@ In this exercise, you will test the integration scenario that you have designed.
 1. Login to your **BambooHR** system. 
 
 2. Select **New > New Employee**.
-![Create Bamboo Employee 1](/exercises/Images/Testing%20Your%20Integration%20Scenario/Creating%20Bamboo%20Employee/create-bamboo-emp-1.png)
+![Create Bamboo Employee 1](/exercises/Images/Create-Test-Bamboo-Employee/create-bamboo-emp-1.png)
 
 3. Mandatorily enter the following values. If you wish, you can also enter values for the other fields as well. Once you have entered all the values, click on **Save**.
 
