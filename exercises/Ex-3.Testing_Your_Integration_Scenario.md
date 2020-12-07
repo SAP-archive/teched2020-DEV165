@@ -30,3 +30,22 @@ In this exercise, you will test the integration scenario that you have designed.
 4. You will see a success message that the employee has been added. From the browser URL, plese make a note of the employeeID. You will see it indicated by the **id** URL parameter. 
 ![Create Bamboo Employee 3](/exercises/Images/Create-Test-Bamboo-Employee/create-bamboo-emp-3.png)
 
+## Testing Your Integration Flow
+
+1. Launch **Postman** and click on **+** icon to create a new request.
+![Test iflow 1](/exercises/Images/Test-Scenario-Using-Postman/postman-1.png)
+
+2. Select the **POST** operation.
+![Test iflow 2](/exercises/Images/Test-Scenario-Using-Postman/postman-2.png)
+
+3. In the request URL, enter the endpoint of your integration flow that you deployed [in this exercise](/exercises/Ex-2.Design_Your_IFlow.md).
+![Test iflow 3](/exercises/Images/Test-Scenario-Using-Postman/postman-3.png)
+
+4. Select the **Authorization** tab and select **Basic Auth** in the **TYPE** dropdown list. 
+![Test iflow 4](/exercises/Images/Test-Scenario-Using-Postman/postman-4.png)
+
+5. Enter the **clientid** in the **Username** field and **clientsecret** in the **Password** field.
+![Test iflow 5](/exercises/Images/Test-Scenario-Using-Postman/postman-5.png)
+
+6. Select **Body** tab. Select **raw** radio button and enter the employee ID of the employee you created in this section. 
+
