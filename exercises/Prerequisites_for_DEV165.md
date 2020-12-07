@@ -11,7 +11,7 @@ If you already have a trial account, you can use that for this exercise.
 Please activate the **Cloud Integration** and **Open Connectors** capabilities. You can also activate the other two capabilities but you will not be using it for this exercise. 
 ![Setup Integration Suite Trial](/exercises/Images/Others/set-up-integrationsuite-trial.png)
 
-## You should create a service instance and service key for the process integration capability by following the [steps in this tutorial](/exercises/create-service-instance-key.md)
+## You should create a service instance and service key for the process integration capability by following the [steps in this exercise](/exercises/create-service-instance-key.md)
 You will use this as the authentication details when you make a call to the integration flow endpoint using **Postman** to test the scenario you designed. 
 ![Create service instance and key 12](/exercises/Images/create-service-instance-key/create-service-inst-key-12.png)
 
