@@ -37,7 +37,7 @@ There are no prior requirements to this exercise. You can perform this even if y
 
 ## Exercises
 
-### [Prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md)
+### [Prerequisites](/exercises/Prerequisites_for_DEV165.md)
 ### [Setting Up Connectivity to Non-SAP Systems](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems.md)
 ### [Design and Deploy Your Integration Flow](/exercises/Ex-2.Design_Your_IFlow.md)
 ### [Testing your Integration Scenario](/exercises/Ex-3.Testing_Your_Integration_Scenario.md)
