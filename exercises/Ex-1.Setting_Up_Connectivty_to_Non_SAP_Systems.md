@@ -16,4 +16,6 @@ Since there are three non-SAP systems that you will be using in this hands-on ex
 
 ## [Configure Connectivity to Your Gmail Account](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.4.Set_Up_Gmail_Connectivity.md)
 
-You will be using the ***Mail*** adapter in the **Cloud Integration** capability to send an email to the **GMail** account of the new hire. To do this, you have to setup connectivity between **Cloud Integration** and **GMail** server 
+You will be using the ***Mail*** adapter in the **Cloud Integration** capability to send an email to the **GMail** account of the new hire. To do this, you have to setup connectivity between **Cloud Integration** and **GMail** server by following these steps:
+- Test connectivity between **Cloud Integration** and **GMail** account using connectivity test
+- Download **GMail** server certificates and deploy them on your **Cloud Integration** tenant. 
