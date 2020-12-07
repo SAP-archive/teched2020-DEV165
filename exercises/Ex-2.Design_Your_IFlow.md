@@ -1,4 +1,4 @@
-# Design Your Integration Flow
+# Design and Deploy Your Integration Flow
 In this part of the exercise, you will design, configure and deploy the integration flow in Cloud Integration. You will see the convenience of the drag and drop user interface for desgning integration flow. 
 
 ## Prerequisites 
