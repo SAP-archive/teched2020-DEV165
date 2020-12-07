@@ -23,7 +23,7 @@ Here's a high-level overview of the steps you will perform:
 1. You will get started with **Integration Suite** by activating **Cloud Integration** and **Open Connectors** capabilities.
 2. In the **Open Connectors** capability, you will create two instances for **<em>Bamboo HR</em>** and **<em>Slack</em>** accounts.
 3. In the **Cloud Integration** capability, you will deploy the credentials for your **<em>Bamboo HR</em>**, **<em>Slack</em>** and **<em>GMail</em>** accounts. 
-4. You will then perform a connectivity test with your **<em>GMail</em>** account and import the server ceriticates into your **Cloud Integration** tenant. 
+4. You will then perform a connectivity test with your **<em>GMail</em>** account and import the server certificates into your **Cloud Integration** tenant. 
 5. You design an integration flow in **Cloud Integration** capability to implement the aforementioned scenario. 
 6. You will test the scenario by creating a new user in your **<em>Bamboo HR</em>** account and monitor how the message is processed in the **Cloud Integration** **<em>Monitor</em>** tab. 
 
