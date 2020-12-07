@@ -37,10 +37,26 @@ There are no prior requirements to this exercise. You can perform this even if y
 
 ## Exercises
 
+You can use this section as an index or table of contents. All pages have a link on top of the page to **Go back to Table of Contents** for easy navigation. 
+
 ### [Prerequisites](/exercises/Prerequisites_for_DEV165.md)
+#### [Create SAP Cloud Platform Trial Account](/exercises/Prerequisites_for_DEV165.md#you-need-a-trial-account-on-sap-cloud-platform-you-can-create-a-new-trial-account-by-following-the-steps-in-this-tutorial)
+#### [Set up Integrtaion Suite Trial](/exercises/Prerequisites_for_DEV165.md#set-up-integration-suite-trial-by-following-the-steps-mentioned-in-this-tutorial)
+#### [Create Cloud Integration Service Instance and Key](/exercises/Prerequisites_for_DEV165.md#you-should-create-a-service-instance-and-service-key-for-the-process-integration-capability-by-following-the-steps-in-this-exercise)
+#### [Create BambooHR Trial Account](/exercises/Prerequisites_for_DEV165.md#get-a-free-trial-account-on-bamboo-hr-here-register-for-bamboo-hr-trial)
+#### [Create Slack Account](/exercises/Prerequisites_for_DEV165.md#create-an-account-on-slack-here-get-started-with-slack-follow-the-instructions-to-create-an-account)
+
 ### [Setting Up Connectivity to Non-SAP Systems](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems.md)
+#### [Create Slack Instance](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex-1.1.Create_Slack_Instance.md)
+#### [Create BambooHR Instance](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex-1.2.Create_BambooHR_Instance.md)
+#### [Deploy Open Connectors Credentials on Cloud Integration](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.3.Deploy_Credentials_on_CloudIntegartion.md)
+#### [Configure Connectivity to GMail Account](/exercises/Ex-1.Setting_Up_Connectivty_to_Non_SAP_Systems/Ex.1.4.Set_Up_Gmail_Connectivity.md)
+
 ### [Design and Deploy Your Integration Flow](/exercises/Ex-2.Design_Your_IFlow.md)
+
 ### [Testing your Integration Scenario](/exercises/Ex-3.Testing_Your_Integration_Scenario.md)
+#### [Creating Employee on BambooHR](/exercises/Ex-3.Testing_Your_Integration_Scenario.md#creating-a-new-employee-in-bamboohr)
+#### [Testing your Integration Flow](/exercises/Ex-3.Testing_Your_Integration_Scenario.md#testing-your-integration-flow)
 
 ## How to obtain support
 
