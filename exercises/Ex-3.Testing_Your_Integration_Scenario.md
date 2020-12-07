@@ -47,5 +47,18 @@ In this exercise, you will test the integration scenario that you have designed.
 5. Enter the **clientid** in the **Username** field and **clientsecret** in the **Password** field.
 ![Test iflow 5](/exercises/Images/Test-Scenario-Using-Postman/postman-5.png)
 
-6. Select **Body** tab. Select **raw** radio button and enter the employee ID of the employee you created in this section. 
+6. Select **Body** tab. Select **raw** radio button and enter the employee ID of the employee you created [in this section](/exercises/Ex-3.Testing_Your_Integration_Scenario.md#creating-a-new-employee-in-bamboohr). Here's an example of the value you would enter if the employee ID is ***110***. 
+```XML
+<eid>110</eid>
+```
+After entering the value, click on **Send**. 
+![Test iflow 6](/exercises/Images/Test-Scenario-Using-Postman/postman-6.png)
 
+7. If the request is successful, you will see a response code **200**.
+![Test iflow 7](/exercises/Images/Test-Scenario-Using-Postman/postman-7.png)
+
+8. Access your **GMail** account. You should have received an email, referring to the new employee you created.
+![Gmail success](/exercises/Images/Test-Scenario-Using-Postman/gmail-success-msg.png)
+
+9. Access your **Slack teched2020** workspace. You should see a message addressed to the team and requesting for the next steps to be processed. 
+![Slack success](/exercises/Images/Test-Scenario-Using-Postman/slack-success-msg.png)
