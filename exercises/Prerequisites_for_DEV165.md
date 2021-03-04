@@ -16,11 +16,13 @@ You will use this as the authentication details when you make a call to the inte
 ![Create service instance and key 12](/exercises/Images/create-service-instance-key/create-service-inst-key-12.png)
 
 ## Get a free trial account on **Bamboo HR** here: [Register for **Bamboo HR** Trial](https://www.bamboohr.com/signup/). 
+> Please do not use your company email ID for this account, since it is only valid for 7-days. Create a new dummy email ID if required. You can reuse the same for your Slack account as well. 
 
 This account is valid for seven days. So, please ensure that you complete this exercise within seven days of creating the **Bamboo HR** trial account.
 ![Create trial account with Bamboo HR](/exercises/Images/Others/bamboo-hr-trial.png)
 
 ## Create an account on **Slack** here: [Get started with Slack](https://slack.com/intl/en-de/get-started#/createnew). Follow the instructions to create an account. 
+> Please do not use your company provided Slack account for this exercise. Please create a new account with a personal email ID and use that for this exercise.  
 ![Create a Slack Account](/exercises/Images/Others/create-slack-account.png)
 
 If you already have a **Slack** account, you can use that as well. Create a new workspace for this hands-on exercise by following these steps: [Create a New Slack Workspace](https://slack.com/intl/en-de/help/articles/206845317-Create-a-Slack-workspace).
