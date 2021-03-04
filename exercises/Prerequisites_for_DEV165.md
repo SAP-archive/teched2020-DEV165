@@ -23,6 +23,7 @@ This account is valid for seven days. So, please ensure that you complete this e
 
 ## Create an account on **Slack** here: [Get started with Slack](https://slack.com/intl/en-de/get-started#/createnew). Follow the instructions to create an account. 
 > Please do not use your company provided Slack account for this exercise. Please create a new account with a personal email ID and use that for this exercise.  
+
 ![Create a Slack Account](/exercises/Images/Others/create-slack-account.png)
 
 If you already have a **Slack** account, you can use that as well. Create a new workspace for this hands-on exercise by following these steps: [Create a New Slack Workspace](https://slack.com/intl/en-de/help/articles/206845317-Create-a-Slack-workspace).
