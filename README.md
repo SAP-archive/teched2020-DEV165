@@ -44,7 +44,7 @@ You can use this section as an index or table of contents. All pages have a link
 
 ### [Prerequisites](/exercises/Prerequisites_for_DEV165.md)
 - [Create SAP Cloud Platform Trial Account](/exercises/Prerequisites_for_DEV165.md#you-need-a-trial-account-on-sap-cloud-platform-you-can-create-a-new-trial-account-by-following-the-steps-in-this-tutorial)
-- [Set up Integrtaion Suite Trial](/exercises/Prerequisites_for_DEV165.md#set-up-integration-suite-trial-by-following-the-steps-mentioned-in-this-tutorial)
+- [Set up Integration Suite Trial](/exercises/Prerequisites_for_DEV165.md#set-up-integration-suite-trial-by-following-the-steps-mentioned-in-this-tutorial)
 - [Create Cloud Integration Service Instance and Key](/exercises/Prerequisites_for_DEV165.md#you-should-create-a-service-instance-and-service-key-for-the-process-integration-capability-by-following-the-steps-in-this-exercise)
 - [Create BambooHR Trial Account](/exercises/Prerequisites_for_DEV165.md#get-a-free-trial-account-on-bamboo-hr-here-register-for-bamboo-hr-trial)
 - [Create Slack Account](/exercises/Prerequisites_for_DEV165.md#create-an-account-on-slack-here-get-started-with-slack-follow-the-instructions-to-create-an-account)
