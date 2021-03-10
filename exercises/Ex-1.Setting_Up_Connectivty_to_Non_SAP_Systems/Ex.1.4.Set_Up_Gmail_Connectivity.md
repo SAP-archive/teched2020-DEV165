@@ -4,7 +4,7 @@ In this exercise, you will set up connectivity between your **Cloud Integration*
 
 ## Prerequisites 
 
-Please ensure that you have completed all the steps specific to the **GMail** account in the [prerequisites](/exercises/Prerequisites/Prerequisites_for_DEV165.md). 
+Please ensure that you have completed all the steps specific to the **GMail** account in the [prerequisites](/exercises/Prerequisites_for_DEV165.md). 
 
 ## Deploying GMail Credentials on Cloud Integration
 In this part of the exercise, you will deploy your username and password on your **Cloud Integration** tenant. 
