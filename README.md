@@ -1,11 +1,11 @@
-# DEV165 -  Non-SAP Integration with SAP Cloud Platform Integration Suite
+# DEV165 -  Non-SAP Integration with SAP Integration Suite
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2020-DEV165)](https://api.reuse.software/info/github.com/SAP-samples/teched2020-DEV165)
 
 
 ## Description
 
-In this session, you will learn how to use SAP Cloud Platform Integration Suite to implement an integration scenario involving non-SAP applications. You will implement a hire-to-retire scenario, a use case involving HR applications, collaboration tools like Slack and email receiver. You will execute this exercise on the trial environment of SAP Cloud Platform and also use a trial account in non-SAP applicatons. 
+In this session, you will learn how to use SAP Integration Suite to implement an integration scenario involving non-SAP applications. You will implement a hire-to-retire scenario, a use case involving HR applications, collaboration tools like Slack and email receiver. You will execute this exercise on the trial environment of SAP Business Technology Platform and also use a trial account in non-SAP applicatons. 
 
 ## Overview
 
@@ -33,17 +33,17 @@ Here's a high-level overview of the steps you will perform:
 ## Requirements
 
 There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration solutions. However, you will be able to derive a lot of value from this session if you have some knowledge on what **Integration Suite** is and how it helps with enterprise-wide integration needs. Here are a few links that can help you get started with it:
-- [Simplify Integration with SAP Cloud Platform Integration Suite](https://www.sap.com/documents/2018/11/6661f73c-277d-0010-87a3-c30de2ffd8ff.html)
+- [Simplify Integration with SAP Integration Suite](https://www.sap.com/documents/2018/11/6661f73c-277d-0010-87a3-c30de2ffd8ff.html)
 - [Integration Suite in Service Catalog](https://discovery-center.cloud.sap/serviceCatalog/integration-suite)
 - Lecture session from TechEd 2019: [Integrate it All with SAP Cloud Platform Integration Suite](https://www.youtube.com/watch?v=ikTKJ97GvRc)
-- [Why SAP Cloud Platform Integration Suite Should Be Your Preferred Choice for Enterprise-Wide (incl. Non-SAP) Integration](https://blogs.sap.com/2020/04/22/why-sap-cloud-platform-integration-suite-should-be-your-preferred-choice-for-enterprise-wide-incl.-non-sap-integration/#)
+- [Why SAP Integration Suite Should Be Your Preferred Choice for Enterprise-Wide (incl. Non-SAP) Integration](https://blogs.sap.com/2020/04/22/why-sap-cloud-platform-integration-suite-should-be-your-preferred-choice-for-enterprise-wide-incl.-non-sap-integration/#)
 
 ## Exercises
 
 You can use this section as an index or table of contents. All pages have a link on top of the page to **Go back to Table of Contents** for easy navigation. 
 
 ### [Prerequisites](/exercises/Prerequisites_for_DEV165.md)
-- [Create SAP Cloud Platform Trial Account](/exercises/Prerequisites_for_DEV165.md#you-need-a-trial-account-on-sap-cloud-platform-you-can-create-a-new-trial-account-by-following-the-steps-in-this-tutorial)
+- [Create SAP Business Technology Platform Trial Account](/exercises/Prerequisites_for_DEV165.md#you-need-a-trial-account-on-sap-cloud-platform-you-can-create-a-new-trial-account-by-following-the-steps-in-this-tutorial)
 - [Set up Integration Suite Trial](/exercises/Prerequisites_for_DEV165.md#set-up-integration-suite-trial-by-following-the-steps-mentioned-in-this-tutorial)
 - [Create Cloud Integration Service Instance and Key](/exercises/Prerequisites_for_DEV165.md#you-should-create-a-service-instance-and-service-key-for-the-process-integration-capability-by-following-the-steps-in-this-exercise)
 - [Create BambooHR Trial Account](/exercises/Prerequisites_for_DEV165.md#get-a-free-trial-account-on-bamboo-hr-here-register-for-bamboo-hr-trial)
