@@ -20,7 +20,7 @@ In this exercise, you are implementing an integration scenario where your use-ca
 
 You will send a request to a HTTP endpoint, similar to a REST API. This request will contain the **ID** of the new employee. You will trigger the request using the Postman client. Here's an overview of the how the scenario architecture will look like:
 
-<br>![Scenario architecture overview](/exercises/Images/Others/scenario_sol_diagram.png)
+<br>![Scenario architecture overview](/exercises/Images/Others/scenario_sol_diagram_1.png)
 
 Here's a high-level overview of the steps you will perform:
 1. You will get started with **Integration Suite** by activating **Cloud Integration** and **Open Connectors** capabilities.
